@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --brand-navy: #0f172a;
+    --brand-navy-deep: #172554;
+    --brand-orange: #f97316;
+    --brand-orange-soft: #ffedd5;
+    --brand-slate: #f8fafc;
+    --brand-slate-strong: #e2e8f0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+    color: var(--brand-navy);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.brand-shell {
+    background: #FFFFFF;
+    backdrop-filter: blur(10px);
+}
+
+.brand-panel {
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(23, 37, 84, 0.94));
+    color: #f8fafc;
+}
+
+.brand-button-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background: linear-gradient(135deg, var(--brand-orange), #ea580c);
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0.8rem 1.4rem;
+    box-shadow: 0 12px 26px rgba(249, 115, 22, 0.28);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brand-button-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 16px 30px rgba(249, 115, 22, 0.32);
+}
+
+.brand-button-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border: 1px solid rgba(15, 23, 42, 0.16);
+    background: rgba(255, 255, 255, 0.8);
+    color: var(--brand-navy);
+    font-weight: 600;
+    padding: 0.8rem 1.4rem;
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.brand-button-secondary:hover {
+    background: rgba(255, 255, 255, 1);
+    border-color: rgba(15, 23, 42, 0.3);
+}
+
+.status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    background: rgba(249, 115, 22, 0.12);
+    border: 1px solid rgba(249, 115, 22, 0.16);
+    color: #9a4a09;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.5rem 0.85rem;
+}
+
+.logo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 1rem;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.06), rgba(249, 115, 22, 0.18));
+    border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.brand-shadow {
+    box-shadow: 0 18px 44px rgba(15, 23, 42, 0.12);
+}
