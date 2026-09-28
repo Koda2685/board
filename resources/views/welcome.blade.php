@@ -13,8 +13,13 @@
         <div class="min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(249,115,22,0.12),transparent_28%),radial-gradient(circle_at_bottom_right,_rgba(15,23,42,0.12),transparent_30%)]">
             <header class="mx-auto max-w-6xl px-6 pt-0 pb-0">
                 <div class="mb-0 flex items-center justify-between gap-2">
-                    <div class="-mt-2 flex flex-col items-center leading-none">
-                        <img src="{{ asset('logo5.png') }}" alt="Drivers United logo" class="h-[20rem] w-[20rem] object-contain drop-shadow-[0_8px_16px_rgba(15,23,42,0.18)]" />
+                    <div class="-mt-2 mt-1 flex flex-col items-center leading-none">
+                        <img
+                            src="{{ asset('logo.png') }}"
+                            alt="Drivers United logo"
+                            style="width: 7rem !important; height: 7rem !important; object-fit: contain; display: block;"
+                            class="drop-shadow-[0_8px_16px_rgba(15,23,42,0.18)]"
+                        />
                         <div class="mt-0 text-center leading-none">
                             <p class="text-[0.52rem] font-semibold uppercase tracking-[0.22em] text-[#f97316]">Drivers United</p>
                             <h1 class="text-base font-bold text-slate-900">Governance</h1>

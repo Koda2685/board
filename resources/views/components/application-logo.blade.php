@@ -1,7 +1,7 @@
 <img
-    src="{{ asset('logo5.png') }}"
+    src="{{ asset('logo.png') }}"
     alt="Dunited Governance logo"
-    class="block h-[20rem] w-[20rem] rounded-xl bg-white/10 object-contain p-1"
-    style="max-width: 100%; max-height: 100%;"
+    class="block rounded-xl bg-white/10 object-contain p-1"
+    style="width: 5rem !important; height: 5rem !important; max-width: 100%; max-height: 100%; object-fit: contain; display: block;"
     {{ $attributes }}
 />
